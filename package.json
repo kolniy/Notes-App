@@ -1,0 +1,25 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "input.js",
+  "scripts": {
+    "dev-server": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+  "author": "kolawole olaniyi",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "7.5.5",
+    "@babel/preset-env": "7.5.5",
+    "babel-loader": "8.0.6",
+    "babel-polyfill": "6.26.0",
+    "moment": "2.24.0",
+    "uuid": "3.3.2",
+    "webpack-dev-server": "3.7.2"
+  },
+  "devDependencies": {
+    "webpack": "4.38.0",
+    "webpack-cli": "3.3.6"
+  }
+}
